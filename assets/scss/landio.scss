@@ -2063,3 +2063,25 @@ b {
 .nav-item.nav-item-toggable {
   display: flex;
 }
+
+.hero.section-news  {
+  padding-top: 120px;
+
+  article {
+    max-width: 30rem;
+  }
+
+  .btn {
+    color: #ffffff;
+    border-radius: 2rem;
+    padding: 1.05rem 2rem;
+  }
+}
+
+.hero.section-news .row {
+  background: transparent;
+}
+
+.bg-creme {
+  background-color: #fcf8f3;
+}
