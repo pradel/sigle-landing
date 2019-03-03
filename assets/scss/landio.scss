@@ -2122,6 +2122,10 @@ b {
 .producthunt {
   margin-bottom: 2rem;
 
+  @media (max-width: map-get($grid-breakpoints, md) - 1) {
+    text-align: center;
+  }
+
   p {
     color: #ffffff;
     margin-bottom: 0;
