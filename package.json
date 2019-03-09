@@ -4,7 +4,8 @@
   "description": "![Version badge](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.2.7&x2=0)",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "netlify deploy --prod"
   },
   "repository": {
     "type": "git",
