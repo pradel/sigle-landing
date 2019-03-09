@@ -2026,12 +2026,32 @@ h6 {
   background-color: #efefef !important;
   padding-top: 2.8125rem;
   padding-bottom: 2.8125rem;
-}
 
-.section-signup .btn {
-  color: #ffffff;
-  border-radius: 2rem;
-  padding: 1.05rem 2rem;
+  h3 {
+    font-family: "Libre Baskerville";
+    margin-bottom: 8px;
+    color: #000000;
+  }
+
+  .easy {
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    color: #ffffff;
+    border-radius: 2rem;
+    padding: 1.05rem 2rem;
+  }
+
+  .lost {
+    margin-bottom: 0;
+    margin-top: 8px;
+
+    a {
+      color: #ff576a;
+      text-decoration: underline;
+    }
+  }
 }
 
 .section-features {
