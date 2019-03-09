@@ -1889,9 +1889,13 @@ h4 {
   font-size: 10px;
 }
 
+.section-news.hero h4 {
+  font-size: 2.5em;
+}
+
 .section-news h4 {
   font-family: "Libre Baskerville";
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 p {
@@ -2057,6 +2061,11 @@ h6 {
 .section-features {
   padding-top: 80px;
   padding-bottom: 30px;
+
+  .card-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
 }
 
 .section-features .card-body img {
