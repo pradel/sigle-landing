@@ -2027,7 +2027,7 @@ h6 {
 }
 
 .section-signup {
-  background-color: #efefef !important;
+  background-color: #ffffff !important;
   padding-top: 2.8125rem;
   padding-bottom: 2.8125rem;
 
@@ -2165,5 +2165,23 @@ b {
 .section-screens {
   img {
     max-width: 100%;
+  }
+}
+
+.sections-enjoy {
+  .row {
+    background: transparent;
+  }
+
+  article {
+    max-width: none;
+  }
+
+  figure img {
+    width: 320px;
+  }
+
+  a {
+    color: #ff576a;
   }
 }
